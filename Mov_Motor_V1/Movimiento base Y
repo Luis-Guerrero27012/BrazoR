@@ -1,0 +1,43 @@
+//Movimiento 180° 
+#define y_paso 15   
+#define y_dire 2    
+#define y_habi 4    
+
+int retardo = 3000;
+int pasos_180 = 100; // Número de pasos para 180 grados
+
+void setup() {
+  pinMode(y_paso, OUTPUT);
+  pinMode(y_dire, OUTPUT);
+  pinMode(y_habi, OUTPUT);
+
+  Serial.begin(115200);
+  Serial.println("Setup completo, iniciando el loop...");
+}
+
+void loop() {
+  // Giro 180°
+  Serial.println("Girando motor X 180 grados...");
+  girarMotorY(pasos_180, HIGH); 
+  delay(5000); 
+
+  // Giro -180 
+  Serial.println("Girando motor X -180 grados...");
+  girarMotorY(pasos_180, LOW); 
+  delay(5000);
+}
+
+void girarMotorY(int pasos, int direccion) {
+  digitalWrite(y_habi, LOW); // Habilita el Driver y
+  digitalWrite(y_dire, direccion); 
+
+  for (int i = 0; i < pasos; i++) {
+    digitalWrite(y_paso, HIGH);
+    delayMicroseconds(retardo);
+    digitalWrite(y_paso, LOW);
+    delayMicroseconds(retardo);
+  }
+
+  digitalWrite(y_habi, HIGH); 
+  Serial.println("Motor X detenido.");
+}
