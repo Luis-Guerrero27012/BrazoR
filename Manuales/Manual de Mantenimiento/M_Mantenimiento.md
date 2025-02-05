@@ -1,3 +1,4 @@
+### **5. SOP para Programación de Mantenimiento**
 - **5.1. Mantenimiento Preventivo
 1. Inspección visual de conexiones y componentes cada 30 horas de uso.
 2. Lubricación de los tornillos sin fin y guías lineales cada 3 meses.
