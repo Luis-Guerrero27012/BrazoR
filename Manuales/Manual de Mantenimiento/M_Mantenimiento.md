@@ -4,7 +4,7 @@
 2. Lubricación de los tornillos sin fin y guías lineales cada 3 meses.
 3. Verificación de la alineación de los motores y ajuste si es necesario.
 4. Pruebas de detección de material con el sensor Hall.
-- ** 5.2. Mantenimiento Correctivo**
+- **5.2. Mantenimiento Correctivo**
 1. Diagnóstico de fallos en sensores y motores.
 2. Reemplazo de piezas desgastadas o defectuosas.
 3. Recalibración del sistema tras la reparación.
