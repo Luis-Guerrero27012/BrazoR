@@ -1,6 +1,38 @@
-# Manual de funcionamiento
-### **1. Introducción**
-El presente documento proporciona directrices detalladas para la operación  y mantenimiento del brazo cartesiano, incluyendo procedimientos de uso, diseño, planes de colocación de equipos, programación de mantenimiento y protocolos de emergencia.
+## <div style='text-align: right'> <div style='color: black'> ***Manual de Funcionamiento del Brazo Cartesiano***
+
+<img src="brazo-removebg-preview.png" width = 500 height = 500 aling = right figclass= margin-caption>
+
+## ÍNDICE 
+1. [INTRODUCCIÓN](#INTRO)
+2. [MEDIDAS DE SEGURIDAD](#SEGURIDAD) <br>
+
+
+<a target="_self" href='#DESCRIPCIÓN'> **3. DESCRIPCIÓN DEL EQUIPO** </a><br>
+
+## **1. INTRODUCCIÓN**
+***
+<a id='INTRO'></a>
+
+El presente documento describe la funcionalidad del brazo cartesiano comandado por un microcontrolador. El sistema está diseñado para mover un objeto metálico desde su punto inicial hasta diferentes grados de movimiento. Este manual proporciona directrices detalladas para la operación del brazo cartesiano, indicando los procedimientos de uso controlando de movimiento en forma tridimensional mediante una interfaz entre el sistema y un usuario.
+
+## **2. MEDIDAS DE SEGURIDAD**
+###
+<a id='SEGURIDAD'></a>
+Durante la operación tenga en cuenta:
+- El uso obligatorio de guantes y gafas de protección.
+- Observar que el equipo no tenga piezas sueltas.
+- Asegurar una correcta ventilación del área de trabajo para evitar acumulación de calor en los motores.
+- Mantener el área de trabajo limpia y libre de obstrucciones.
+- No acercar manos u objetos a las partes móviles del brazo.
+- Realizar pruebas de los grados de movimiento.
+- Verificar que el equipo se encuentre desconectado antes de realizar cualquier ajuste.
+
+### **3. DESCRIPCIÓN DEL EQUIPO**
+***
+<a id='DESCRIPCIÓN'></a>
+
+
+
 
 ### **2. Características Técnicas**
 - **Motores**: 3x Nema 17
