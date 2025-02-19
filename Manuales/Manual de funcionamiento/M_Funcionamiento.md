@@ -34,7 +34,7 @@ Durante la operación tenga en cuenta:
 ***
 <a id='DESCRIPCIÓN'></a>
 
-### **3. DESCRIPCIÓN DEL EQUIPO**
+## **3. DESCRIPCIÓN DEL EQUIPO**
 ### Especificaciones Técnicas
 
 ### Componentes Principales
@@ -51,14 +51,14 @@ Durante la operación tenga en cuenta:
 (Estructura del brazo ocn etiquetas)
 
 
-### **4. Instalación y Configuración Inicial**
+## **4. Instalación y Configuración Inicial**
 ### Conexión Eléctrica y cableado
 (Conexión de motores,drivers,sensores y alimentación )
 
 ### Calibración inicial
 (Conexión de motores,drivers,sensores y alimentación )
 
-### **5. Operación** <br>
+## **5. Operación** <br>
 El modo de operación es remoto debido a que se controla el brazo mediante la vía Wi-Fi/Blluetooth desde una PC o la aplicación móvil.
 - Uso de comandos
 - Configuración de Pasos en motores PAP
