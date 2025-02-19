@@ -39,12 +39,19 @@ Durante la operación tenga en cuenta:
 
 ### Componentes Principales
 - **Motores**: 3x Nema 17
+![motor](https://github.com/user-attachments/assets/4e83dea2-4d1b-4a0c-bb07-5d7d4a59ddc8) <img src="imagenes/diagrama.png" width="400">
 - **Controlador**: ESP32
+![esp](https://github.com/user-attachments/assets/e8e96de7-8906-41bf-a7c2-4ce6c124e8fa) <img src="Manuales/Manual de funcionamiento/esp.jpg" width="800">
 - **Drivers**: A4988
+![driver](https://github.com/user-attachments/assets/a7325789-c9fb-4e27-a54d-1f2c84f47243)
 - **Sensor**: Hall
+![hall](https://github.com/user-attachments/assets/a845416e-9d73-4845-8cb2-a8ed4fad64af)
 - **Correa Dentada**:
+![correa](https://github.com/user-attachments/assets/dca61f18-8519-4507-8bbb-8c046366be0d)
 - **Rodamiento radial**: x4
+![rodami](https://github.com/user-attachments/assets/f1d9bb19-74bf-4549-8e1c-f30bf4d0f59c)
 - **Rodamiento Excéntrico**: x2
+![rodamiento](https://github.com/user-attachments/assets/81a047b1-8ddc-4b0c-8b9c-f1a2b0dc933b)
 # *Añadir dibujo con señalamiento de las piezas*
 
 ### Esquema
