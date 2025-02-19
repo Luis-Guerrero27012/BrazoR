@@ -38,25 +38,23 @@ Durante la operación tenga en cuenta:
 ### Especificaciones Técnicas
 
 ### Componentes Principales
-- **Motores**: 3x Nema 17
-![motor](https://github.com/user-attachments/assets/4e83dea2-4d1b-4a0c-bb07-5d7d4a59ddc8) <img src="imagenes/diagrama.png" width="400">
-- **Controlador**: ESP32
-![esp](https://github.com/user-attachments/assets/e8e96de7-8906-41bf-a7c2-4ce6c124e8fa) <img src="Manuales/Manual de funcionamiento/esp.jpg" width="800">
-- **Drivers**: A4988
+- **Motores**: 3x Nema 17 <br>
+![motor](https://github.com/user-attachments/assets/4e83dea2-4d1b-4a0c-bb07-5d7d4a59ddc8)
+- **Controlador**: ESP32 <br>
+![esp](https://github.com/user-attachments/assets/e8e96de7-8906-41bf-a7c2-4ce6c124e8fa) 
+- **Drivers**: A4988 <br>
 ![driver](https://github.com/user-attachments/assets/a7325789-c9fb-4e27-a54d-1f2c84f47243)
-- **Sensor**: Hall
+- **Sensor**: Hall <br>
 ![hall](https://github.com/user-attachments/assets/a845416e-9d73-4845-8cb2-a8ed4fad64af)
-- **Correa Dentada**:
+- **Correa Dentada**: X1 <br>
 ![correa](https://github.com/user-attachments/assets/dca61f18-8519-4507-8bbb-8c046366be0d)
-- **Rodamiento radial**: x4
+- **Rodamiento radial**: x4 <br>
 ![rodami](https://github.com/user-attachments/assets/f1d9bb19-74bf-4549-8e1c-f30bf4d0f59c)
-- **Rodamiento Excéntrico**: x2
+- **Rodamiento Excéntrico**: x2 <br>
 ![rodamiento](https://github.com/user-attachments/assets/81a047b1-8ddc-4b0c-8b9c-f1a2b0dc933b)
-# *Añadir dibujo con señalamiento de las piezas*
-
-### Esquema
-(Estructura del brazo ocn etiquetas)
-
+### Esquema <br>
+![Esquema1](https://github.com/user-attachments/assets/7fadaf5f-3fbc-4115-9198-4e0989a74853) <br>
+![Esquema2](https://github.com/user-attachments/assets/04218100-8210-4bef-a13f-e359339fee51)
 
 ## **4. Instalación y Configuración Inicial**
 ### Conexión Eléctrica y cableado
