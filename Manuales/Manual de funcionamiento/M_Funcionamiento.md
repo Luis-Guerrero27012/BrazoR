@@ -4,15 +4,15 @@
 
 ## ÍNDICE 
 1. [INTRODUCCIÓN](#INTRO)
-2. [MEDIDAS DE SEGURIDAD](#SEGURIDAD) <br>
+2. [MEDIDAS DE SEGURIDAD](#SEGURIDAD)
+2. [DESCRIPCIÓN DEL EQUIPO](#DESCRIPCIÓN)
 
 
-<a target="_self" href='#DESCRIPCIÓN'> **3. DESCRIPCIÓN DEL EQUIPO** </a><br>
 
-## **1. INTRODUCCIÓN**
 ***
 <a id='INTRO'></a>
 
+## **1. INTRODUCCIÓN**
 El presente documento describe la funcionalidad del brazo cartesiano comandado por un microcontrolador. El sistema está diseñado para mover un objeto metálico desde su punto inicial hasta diferentes grados de movimiento. Este manual proporciona directrices detalladas para la operación del brazo cartesiano, indicando los procedimientos de uso controlando de movimiento en forma tridimensional mediante una interfaz entre el sistema y un usuario.
 
 ## **2. MEDIDAS DE SEGURIDAD**
