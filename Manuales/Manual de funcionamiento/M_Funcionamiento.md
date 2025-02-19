@@ -15,9 +15,11 @@
 ## **1. INTRODUCCIÓN**
 El presente documento describe la funcionalidad del brazo cartesiano comandado por un microcontrolador. El sistema está diseñado para mover un objeto metálico desde su punto inicial hasta diferentes grados de movimiento. Este manual proporciona directrices detalladas para la operación del brazo cartesiano, indicando los procedimientos de uso controlando de movimiento en forma tridimensional mediante una interfaz entre el sistema y un usuario.
 
-## **2. MEDIDAS DE SEGURIDAD**
-###
+
+***
 <a id='SEGURIDAD'></a>
+
+## **2. MEDIDAS DE SEGURIDAD**
 Durante la operación tenga en cuenta:
 - El uso obligatorio de guantes y gafas de protección.
 - Observar que el equipo no tenga piezas sueltas.
@@ -27,10 +29,11 @@ Durante la operación tenga en cuenta:
 - Realizar pruebas de los grados de movimiento.
 - Verificar que el equipo se encuentre desconectado antes de realizar cualquier ajuste.
 
-### **3. DESCRIPCIÓN DEL EQUIPO**
+
 ***
 <a id='DESCRIPCIÓN'></a>
 
+### **3. DESCRIPCIÓN DEL EQUIPO**
 
 
 
