@@ -1,5 +1,9 @@
 ## <div style='text-align: right'> <div style='color: black'> ***Manual de Funcionamiento del Brazo Cartesiano***
 
+![Brazo](brazo.png)
+
+<img src="brazo.png" width="400">
+
 <img src="brazo-removebg-preview.png" width = 500 height = 500 aling = right figclass= margin-caption>
 
 ## ÍNDICE 
