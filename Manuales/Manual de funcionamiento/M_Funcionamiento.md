@@ -1,20 +1,73 @@
-# Manual de funcionamiento
-### **1. Introducción**
-El presente documento proporciona directrices detalladas para la operación  y mantenimiento del brazo cartesiano, incluyendo procedimientos de uso, diseño, planes de colocación de equipos, programación de mantenimiento y protocolos de emergencia.
+# <div style='text-align: right'> <div style='color: black'> ***Manual de Funcionamiento del Brazo Cartesiano***
 
-### **2. Características Técnicas**
+![brazo](https://github.com/user-attachments/assets/f08b59f2-8ff0-4c38-9fe9-b6c48a09bd60)
+
+
+## ÍNDICE 
+1. [INTRODUCCIÓN](#INTRO)
+2. [MEDIDAS DE SEGURIDAD](#SEGURIDAD)
+3. [DESCRIPCIÓN DEL EQUIPO](#DESCRIPCIÓN)
+
+
+
+***
+<a id='INTRO'></a>
+
+## **1. INTRODUCCIÓN**
+El presente documento describe la funcionalidad del brazo cartesiano comandado por un microcontrolador. El sistema está diseñado para mover un objeto metálico desde su punto inicial hasta diferentes grados de movimiento. Este manual proporciona directrices detalladas para la operación del brazo cartesiano, indicando los procedimientos de uso controlando de movimiento en forma tridimensional mediante una interfaz entre el sistema y un usuario.
+
+
+***
+<a id='SEGURIDAD'></a>
+
+## **2. MEDIDAS DE SEGURIDAD**
+Durante la operación tenga en cuenta:
+- El uso obligatorio de guantes y gafas de protección.
+- Observar que el equipo no tenga piezas sueltas.
+- Asegurar una correcta ventilación del área de trabajo para evitar acumulación de calor en los motores.
+- Mantener el área de trabajo limpia y libre de obstrucciones.
+- No acercar manos u objetos a las partes móviles del brazo.
+- Realizar pruebas de los grados de movimiento.
+- Verificar que el equipo se encuentre desconectado antes de realizar cualquier ajuste.
+
+
+***
+<a id='DESCRIPCIÓN'></a>
+
+## **3. DESCRIPCIÓN DEL EQUIPO**
+### Especificaciones Técnicas
+
+### Componentes Principales
 - **Motores**: 3x Nema 17
 - **Controlador**: ESP32
 - **Drivers**: A4988
 - **Sensor**: Hall
 - **Correa Dentada**:
 - **Rodamiento radial**: x4
-- **Rodamiento Exéntrico**: x2
-- 
+- **Rodamiento Excéntrico**: x2
 # *Añadir dibujo con señalamiento de las piezas*
 
-### **3. Procedimientos de Operación**
-- **3.1. Inicio del sistema** <br>
+### Esquema
+(Estructura del brazo ocn etiquetas)
+
+
+## **4. Instalación y Configuración Inicial**
+### Conexión Eléctrica y cableado
+(Conexión de motores,drivers,sensores y alimentación )
+
+### Calibración inicial
+(Conexión de motores,drivers,sensores y alimentación )
+
+## **5. Operación** <br>
+El modo de operación es remoto debido a que se controla el brazo mediante la vía Wi-Fi/Blluetooth desde una PC o la aplicación móvil.
+- Uso de comandos
+- Configuración de Pasos en motores PAP
+- Uso del electroimán y sensores en tareas automatizadas
+- 
+
+
+
+###**6. Inicio del sistema** <br>
    1. Verificar la alimentación eléctrica y encender la ESP32.
    2.  Revisar que los motores Nema 17 y los sensores de fin de carrera estén operativos.
    3.  Calibrar la posición inicial utilizando los sensores de fin de carrera.
