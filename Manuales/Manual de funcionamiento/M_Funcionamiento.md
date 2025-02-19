@@ -6,7 +6,7 @@
 ## ÍNDICE 
 1. [INTRODUCCIÓN](#INTRO)
 2. [MEDIDAS DE SEGURIDAD](#SEGURIDAD)
-2. [DESCRIPCIÓN DEL EQUIPO](#DESCRIPCIÓN)
+3. [DESCRIPCIÓN DEL EQUIPO](#DESCRIPCIÓN)
 
 
 
@@ -35,22 +35,39 @@ Durante la operación tenga en cuenta:
 <a id='DESCRIPCIÓN'></a>
 
 ### **3. DESCRIPCIÓN DEL EQUIPO**
+### Especificaciones Técnicas
 
-
-
-### **2. Características Técnicas**
+### Componentes Principales
 - **Motores**: 3x Nema 17
 - **Controlador**: ESP32
 - **Drivers**: A4988
 - **Sensor**: Hall
 - **Correa Dentada**:
 - **Rodamiento radial**: x4
-- **Rodamiento Exéntrico**: x2
-- 
+- **Rodamiento Excéntrico**: x2
 # *Añadir dibujo con señalamiento de las piezas*
 
-### **3. Procedimientos de Operación**
-- **3.1. Inicio del sistema** <br>
+### Esquema
+(Estructura del brazo ocn etiquetas)
+
+
+### **4. Instalación y Configuración Inicial**
+### Conexión Eléctrica y cableado
+(Conexión de motores,drivers,sensores y alimentación )
+
+### Calibración inicial
+(Conexión de motores,drivers,sensores y alimentación )
+
+### **5. Operación** <br>
+El modo de operación es remoto debido a que se controla el brazo mediante la vía Wi-Fi/Blluetooth desde una PC o la aplicación móvil.
+- Uso de comandos
+- Configuración de Pasos en motores PAP
+- Uso del electroimán y sensores en tareas automatizadas
+- 
+
+
+
+###**6. Inicio del sistema** <br>
    1. Verificar la alimentación eléctrica y encender la ESP32.
    2.  Revisar que los motores Nema 17 y los sensores de fin de carrera estén operativos.
    3.  Calibrar la posición inicial utilizando los sensores de fin de carrera.
