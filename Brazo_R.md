@@ -1,16 +1,19 @@
 # Brazo Robótico Cartesiano
 
-# 🎯 Objetivos
-## General
+- [Objetivo General](#objetivo-general)
+- [Objetivos Específicos](#objetivos-especificos)
+***
+<a id="objetivo-general"></a>
+## Objetivo General
 - Construir un brazo cartesiano de 3 ejes con microcontrolador y una base giratoria, utilizando motores paso a paso.
 
-## Específicos
+<a id="objetivos-especificos"></a>
+## Objetivos Específicos
 - Investigar los principios de funcionamiento de un brazo cartesiano, sus especificaciones y el control de motores paso a paso con un microcontrolador.-
 -  Calcular la potencia y la fuerza requerida en los ejes del brazo, considerando peso, estabilidad y capacidad de carga.
 - Construir el brazo cartesiano de 3 ejes, integrando los motores paso a paso y el microcontrolador con la base giratoria.
 - Analizar el rendimiento y precisión mediante pruebas de movimiento de ejes y control.
 
-  ## 📌 Características
 ### ¿Qué es un brazo cartesiano?
 Un sistema mecánico que utiliza movimientos lineales a lo largo de tres ejes ortogonales (X, Y, Z). Se basa en la geometría cartesiana, donde cada eje es controlado independientemente.
 
