@@ -50,15 +50,9 @@ Son motores eléctricos trifásicos que ofrecen alta eficiencia energética. Eje
 
 ![Image](https://github.com/user-attachments/assets/5feac370-d209-46e9-9c3a-86db31dc4caa)
 
-### Servomotores
-![Image](https://github.com/user-attachments/assets/db30fd33-88a1-4bf4-b56f-2e724e9859c7)
-
-- **MG996R:** Alta precisión y fuerza en movimientos.
-- **SG90:** Pequeño y liviano, ideal para tareas ligeras.
 
 ### Engranajes y Transmisión
 
-- **Engranajes:** Transmiten movimiento y fuerza.
 - **Acoples:** Unen ejes para sincronización.
 - **Tornillo sin fin:** Conversión de movimiento rotatorio.
 - **Ejes acerados:** Componentes mecánicos de alta resistencia.
@@ -102,15 +96,55 @@ Fuente de 500W con múltiples salidas de voltaje (+12V, +5V, +3.3V).
 - **Nylon:** Alta resistencia mecánica.
 - **Resina:** Ideal para detalles finos en modelos complejos.
 
+  ### Cálculos de Fuerzas y Torque
+
+#### Fórmulas:
+
+- **Volumen de la barra:**
+  ```
+  V = π (d/2)^2 * L
+  ```
+- **Masa de la barra:**
+  ```
+  m = V * ρ
+  ```
+- **Peso de la barra:**
+  ```
+  W = m * g
+  ```
+- **Torque:**
+  ```
+  T = F * distancia
+  ```
+
+---
+
+## Simulación y Desarrollo del Brazo Robótico
+
+- **Perfiles de aluminio serie V20**
+- **Sistema de sujeción con electroimán**
+- **ESP32 como microcontrolador**
+
+---
+
+## Conclusión
+
+El diseño y construcción de un brazo cartesiano de 3 ejes con microcontrolador permite un control preciso en aplicaciones industriales y educativas. La combinación de materiales adecuados, cálculos mecánicos y programación eficiente garantizan un funcionamiento óptimo.
+
+---
+
 ## 📷 Imágenes
-### Diseño 3D del brazo
-![Brazo Cartesiano](https://via.placeholder.com/800x400.png?text=Imagen+del+Brazo+Cartesiano)
+### Esquema del Brazo
+![Image](https://github.com/user-attachments/assets/99e8b9d5-a120-4ba8-838d-2c55e0156355)
 
 ### Circuito de conexión
-![Esquemático](https://via.placeholder.com/800x400.png?text=Diagrama+de+Conexion)
+![Image](https://github.com/user-attachments/assets/725cbcff-e970-430f-b057-2a2048067d81)
+
+![Image](https://github.com/user-attachments/assets/42c8c51f-d08f-4478-98b2-434e1774dad8)
+
 
 ## 🛠️ Componentes
-- **Microcontrolador**: ESP32 o Arduino Mega.
+- **Microcontrolador**: ESP32.
 - **Motores paso a paso** con drivers.
 - **Estructura** impresa en 3D.
 - **Fuente de alimentación** adecuada.
