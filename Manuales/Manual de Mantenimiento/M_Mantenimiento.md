@@ -46,10 +46,30 @@ Este manual proporciona los procedimientos de mantenimiento necesarios para gara
 ### Limpieza (Frecuencia: Mensual)
 
 - Desconectar la energía antes de manipular cualquier parte del brazo robótico.
+
+![imagen](https://github.com/user-attachments/assets/2459ce59-6673-4fae-be48-87bbf1cd104a)
+
+
 - Limpieza de la estructura: Pasar un trapo de microfibra seco o ligeramente humedecido con alcohol isopropílico para eliminar polvo y suciedad.
+
+![imagen](https://github.com/user-attachments/assets/9b9322a3-7262-4938-84a0-03b95b096ee8)
+
+
 - Uso de aire comprimido: Aplicar aire comprimido en las zonas de difícil acceso, como ventiladores de los motores y rendijas del sistema.
+
+![imagen](https://github.com/user-attachments/assets/827d10ec-aed5-4724-a432-4b3e899bf176)
+
+
 - Limpieza de engranajes y base: Aplicar alcohol isopropílico con un cepillo suave para eliminar grasa acumulada y residuos de suciedad.
+
+![imagen](https://github.com/user-attachments/assets/018779ca-3b04-4d98-b009-3e1cb36264ef)
+
+
 - Limpieza del electroimán: Pasar un cepillo suave para eliminar residuos metálicos adheridos y, si es necesario, utilizar un trapo húmedo con alcohol.
+
+![imagen](https://github.com/user-attachments/assets/c744e55f-31b6-4eff-ab0e-6173f8f6a9bd)
+![imagen](https://github.com/user-attachments/assets/ee28066e-e028-4033-ad11-4015eecd63c4)
+
 
 ### Lubricación (Frecuencia: Cada 3 meses)
 
