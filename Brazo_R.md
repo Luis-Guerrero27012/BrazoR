@@ -9,6 +9,10 @@
 - [Código G](#codigo-g)
 - [Componentes Clave del Sistema](#componentes-clave-del-sistema)
 - [Movimiento](#movimiento)
+- [Control y Electrónica](#control-y-electronica)
+- [Diseño y Simulación 3D](#diseno-y-simulacion-3d)
+- [Simulación y Desarrollo del Brazo Robótico](#simulacion-y-desarrollo-del-brazo-robotico)
+- [Conclusión](#conclusion)
 
 
 
@@ -93,14 +97,14 @@ Son motores eléctricos trifásicos que ofrecen alta eficiencia energética. Eje
 - **Rodamientos:** Reducen la fricción en el movimiento.
 
 ---
-
+<a id="control-y-electronica"></a>
 ## Control y Electrónica
 
 ### Microprocesador
 
 Controla y ejecuta instrucciones dentro del sistema.
 
-### Programación con Arduino
+### Programación con Esp32
 
 Plataforma de código abierto basada en C/C++.
 
@@ -112,13 +116,16 @@ Controla motores paso a paso mediante señales de control.
 
 Fuente de 500W con múltiples salidas de voltaje (+12V, +5V, +3.3V).
 
----
+***
 
+<a id="diseno-y-simulacion-3d"></a>
 ## Diseño y Simulación 3D
 
 ![Image](https://github.com/user-attachments/assets/8e27e7ab-1b6c-4ee7-a800-d591a43c64f7)
 
 ![Image](https://github.com/user-attachments/assets/4ca305b4-8a14-4187-ad84-7c360eeae879)
+
+***
 
 
 ### Materiales de Impresión
@@ -150,16 +157,16 @@ Fuente de 500W con múltiples salidas de voltaje (+12V, +5V, +3.3V).
   T = F * distancia
   ```
 
----
-
+***
+<a id="simulacion-y-desarrollo-del-brazo-robotico"></a>
 ## Simulación y Desarrollo del Brazo Robótico
 
 - **Perfiles de aluminio serie V20**
 - **Sistema de sujeción con electroimán**
 - **ESP32 como microcontrolador**
 
----
-
+***
+<a id="conclusion"></a>
 ## Conclusión
 
 El diseño y construcción de un brazo cartesiano de 3 ejes con microcontrolador permite un control preciso en aplicaciones industriales y educativas. La combinación de materiales adecuados, cálculos mecánicos y programación eficiente garantizan un funcionamiento óptimo.
