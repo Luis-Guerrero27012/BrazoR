@@ -72,16 +72,19 @@ Son motores eléctricos trifásicos que ofrecen alta eficiencia energética. Eje
 ![Image](https://github.com/user-attachments/assets/5feac370-d209-46e9-9c3a-86db31dc4caa)
 
 - **Microcontrolador**: ESP32.
+  
 ![Image](https://github.com/user-attachments/assets/b3fbded4-4d16-447c-b6c9-352b690ca49f)
   
 - **Drivers de motores PaP**
+  
 ![Image](https://github.com/user-attachments/assets/204d4e3d-5567-42bb-8c16-1360aeeea3ca)
 
 - **Fuente de alimentación** adecuada.
+  
 ![Image](https://github.com/user-attachments/assets/abb0276e-3a49-4211-9943-76615c6a1aca)
 
 
-### Movimineto
+### Movimiento
 
 - **Acoples:** Unen ejes para sincronización.
 - **Tornillo sin fin:** Conversión de movimiento rotatorio.
