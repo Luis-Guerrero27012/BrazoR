@@ -1,4 +1,4 @@
-# <div style='text-align: right'> <div style='color: black'> ***Manual de Funcionamiento del Brazo Cartesiano***
+# <div style='text-align: center'> <div style='color: black'> ***Brazo Robótico Cartesiano***
 ![Image](https://github.com/user-attachments/assets/f7f39bcb-a854-4d1c-afa1-7953f6208e34)
 ***
 ## ÍNDICE
