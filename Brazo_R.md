@@ -1,14 +1,17 @@
-# Brazo Robótico Cartesiano
+# <div style='text-align: right'> <div style='color: black'> ***Manual de Funcionamiento del Brazo Cartesiano***
+
+![Image](https://github.com/user-attachments/assets/2d8e31b3-5edb-4084-85b7-49a4558260f7)
+***
+## ÍNDICE
 
 - [Objetivo General](#objetivo-general)
 - [Objetivos Específicos](#objetivos-especificos)
 - [¿Qué es un brazo cartesiano?](#que-es-un-brazo-cartesiano)
-- [Robótica Industrial](#robotica-industrial)
 - [Clasificación de brazos robóticos](#clasificacion-de-brazos-roboticos)
 - [Sistemas de Movimientos en Brazos Cartesianos](#sistemas-de-movimientos-en-brazos-cartesianos)
 - [Código G](#codigo-g)
 - [Componentes Clave del Sistema](#componentes-clave-del-sistema)
-- [Movimiento](#movimiento)
+- [Componentes de movilidad](#componentes-de-movilidad)
 - [Control y Electrónica](#control-y-electronica)
 - [Diseño y Simulación 3D](#diseno-y-simulacion-3d)
 - [Simulación y Desarrollo del Brazo Robótico](#simulacion-y-desarrollo-del-brazo-robotico)
@@ -35,7 +38,7 @@
 Un sistema mecánico que utiliza movimientos lineales a lo largo de tres ejes ortogonales (X, Y, Z). Se basa en la geometría cartesiana, donde cada eje es controlado independientemente.
 ***
 
-<a id="robotica-industrial"></a>
+
 ### Robótica Industrial
 Según la norma ISO 8373:2012, un robot es un manipulador multipropósito, reprogramable, con control automático y programable en tres o más ejes.
 ***
@@ -81,20 +84,34 @@ Son motores eléctricos trifásicos que ofrecen alta eficiencia energética. Eje
   
 - **Drivers de motores PaP**
   
-![Image](https://github.com/user-attachments/assets/204d4e3d-5567-42bb-8c16-1360aeeea3ca)
+![Image](https://github.com/user-attachments/assets/98dd0456-99e3-44e9-8f95-d5711003815b)
 
 - **Fuente de alimentación** adecuada.
   
 ![Image](https://github.com/user-attachments/assets/abb0276e-3a49-4211-9943-76615c6a1aca)
 
 
-### Movimiento
+### Componentes de movilidad
 
 - **Acoples:** Unen ejes para sincronización.
+
+![Image](https://github.com/user-attachments/assets/dd6e60c6-fb65-40bd-8191-59fd538c2bb5)
+  
 - **Tornillo sin fin:** Conversión de movimiento rotatorio.
+
+![Image](https://github.com/user-attachments/assets/6d1d635d-3645-4d97-9a97-197ea46a59f2)
+
 - **Ejes acerados:** Componentes mecánicos de alta resistencia.
+
+![Image](https://github.com/user-attachments/assets/4b5817ae-9ced-45c9-ab81-29a0905b4326)
+
 - **Correas dentadas:** Transmisión de movimiento precisa.
+
+![Image](https://github.com/user-attachments/assets/f7730169-cf6a-4926-aab9-f1da3d6da603)
+
 - **Rodamientos:** Reducen la fricción en el movimiento.
+
+![Image](https://github.com/user-attachments/assets/337d67e9-ab23-451e-bc70-acef9bf1c76f)
 
 ---
 <a id="control-y-electronica"></a>
@@ -161,9 +178,31 @@ Fuente de 500W con múltiples salidas de voltaje (+12V, +5V, +3.3V).
 <a id="simulacion-y-desarrollo-del-brazo-robotico"></a>
 ## Simulación y Desarrollo del Brazo Robótico
 
-- **Perfiles de aluminio serie V20**
-- **Sistema de sujeción con electroimán**
-- **ESP32 como microcontrolador**
+- Perfiles de aluminio serie V20
+La estructura se desarrollará con perfiles de aluminio serie V20 de 40*20*400 [mm], perfil v20 de 20*20*360 [mm] y perfil 20*20*335 [mm].
+El rango de movimiento:
+
+Z1 = 300 mm X = 280 mm Z2 = 255 mm
+Carros
+
+6 rodamientos con caucho.
+
+2 rodamientos con caucho excéntricos.
+ 
+4 placas de pletina de 2m de espesor.
+
+***
+- Sistema de sujeción con electroimán
+Un electroimán es un tipo de imán cuyo campo magnético es generado por el paso de corriente eléctrica a través de un conductor, como un alambre enrollado en forma de bobina. Cuando se pasa corriente por la bobina, se crea un campo magnético alrededor del alambre, y el objeto se comporta como un imán. A diferencia de los imanes permanentes, el campo magnético de un electroimán se puede activar y desactivar al encender o apagar la corriente eléctrica.
+Componentes de un electroimán:
+
+•	Bobina: Un alambre enrollado, generalmente de cobre, por donde circula la corriente eléctrica.
+•	Núcleo ferromagnético: Un material magnético, como el hierro, colocado dentro de la bobina. Este núcleo intensifica el campo magnético generado por la corriente.
+
+***
+- ESP32 como microcontrolador
+El microcontrolador ESP32 es el cerebro del sistema. Este dispositivo es ideal para controlar el movimiento de los motores, así como la lectura de los sensores de posición y la ejecución de las instrucciones de movimiento en tiempo real.
+
 
 ***
 <a id="conclusion"></a>
