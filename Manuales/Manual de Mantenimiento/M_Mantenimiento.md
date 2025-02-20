@@ -1,5 +1,7 @@
 # Manual de Mantenimiento para el Brazo Robótico Cartesiano
 
+![imagen](https://github.com/user-attachments/assets/c7ebbe3d-354b-46b3-8bb3-d5b919fb551e)
+           
 Este manual proporciona los procedimientos de mantenimiento necesarios para garantizar el correcto funcionamiento del brazo robótico equipado con tres motores NEMA 17 y un electroimán. Se detallan las rutinas de inspección, limpieza, ajuste y lubricación para prolongar la vida útil del equipo.
 
 ## Herramientas y Materiales
@@ -21,10 +23,25 @@ Este manual proporciona los procedimientos de mantenimiento necesarios para gara
 ### Inspección General (Frecuencia: Semanal)
 
 - Revisión de cables y conectores: Verificar que no haya cables sueltos, pelados o dañados. Si se detecta algún daño, reemplazar de inmediato.
+  
+![imagen](https://github.com/user-attachments/assets/20d37110-8253-4d42-8df6-6b97bf393bb8)
+
 - Verificación de temperatura en motores: Usar un termómetro infrarrojo para medir la temperatura de los motores NEMA 17 después de un ciclo de operación. Si excede los 60°C, investigar la causa (sobrevoltaje, carga excesiva, ventilación insuficiente).
+
+![imagen](https://github.com/user-attachments/assets/ae59ee43-5b97-4156-8711-b1df90046894)
+
 - Inspección del electroimán: Observar si hay acumulación de partículas metálicas que puedan afectar su rendimiento. Si es necesario, proceder a la limpieza.
+
+![imagen](https://github.com/user-attachments/assets/152e8b4b-f957-4256-95a9-12eafcbd8d5a)
+
 - Verificación del estado de los drivers A4988: Revisar si presentan sobrecalentamiento o conexiones sueltas.
+
+![imagen](https://github.com/user-attachments/assets/4d52ea0e-147e-4915-aa95-684e45213413)
+ 
 - Revisión de la fuente de energía: Verificar que la fuente de CPU proporcione un voltaje estable y sin fluctuaciones.
+
+![imagen](https://github.com/user-attachments/assets/b794f6cf-c611-49a0-ba2e-02f9dcc5ee88)
+
 
 ### Limpieza (Frecuencia: Mensual)
 
