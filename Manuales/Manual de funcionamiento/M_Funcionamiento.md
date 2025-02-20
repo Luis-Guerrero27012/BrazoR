@@ -80,9 +80,9 @@ El modo de operación es remoto debido a que se controla el brazo mediante la v�
 La interfaz se vera de la manera siguiente: <br>
 ![interfaz1 jpg](https://github.com/user-attachments/assets/3114c993-8131-4909-a1d4-2e35d0719e80) <br>
 Para configurar los pasos tomar en cuenta que:
-- Motor 1 corresponde al que mueve la base.
-- Motor 2 corresponde al eje x.
-- Motor 3 corresponde al eje y.
+- Motor 1 corresponde al que mueve la base, tiene un máximo de 90° de giro.
+- Motor 2 corresponde al eje x, tiene un máximo de
+- Motor 3 corresponde al eje y, tiene un máximo de
 Referente a los pasos ingresar:
 **Motor 1**
 - Pasos 1: 2000 para mover 90°
