@@ -1,9 +1,7 @@
 # <div style='text-align: right'> <div style='color: black'> ***Manual de Funcionamiento del Brazo Cartesiano***
-
-![Image](https://github.com/user-attachments/assets/2d8e31b3-5edb-4084-85b7-49a4558260f7)
+![Image](https://github.com/user-attachments/assets/f7f39bcb-a854-4d1c-afa1-7953f6208e34)
 ***
 ## ÍNDICE
-
 - [Objetivo General](#objetivo-general)
 - [Objetivos Específicos](#objetivos-especificos)
 - [¿Qué es un brazo cartesiano?](#que-es-un-brazo-cartesiano)
