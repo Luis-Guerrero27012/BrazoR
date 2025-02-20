@@ -1,4 +1,4 @@
-# Manual de Mantenimiento para el Brazo Robótico Cartesiano
+# <div style='text-align: right'> <div style='color: red'> ***Manual de Mantenimiento del Brazo Cartesiano***
 
 ![imagen](https://github.com/user-attachments/assets/c7ebbe3d-354b-46b3-8bb3-d5b919fb551e)
            
