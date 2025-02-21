@@ -36,8 +36,6 @@ Durante la operación tenga en cuenta:
 <a id='DESCRIPCIÓN'></a>
 
 ## **3. DESCRIPCIÓN DEL EQUIPO**
-### Especificaciones Técnicas
-
 ### Componentes Principales
 - **Motores**: 3x Nema 17 <br>
 ![motor](https://github.com/user-attachments/assets/4e83dea2-4d1b-4a0c-bb07-5d7d4a59ddc8) 
