@@ -74,14 +74,38 @@ Este manual proporciona los procedimientos de mantenimiento necesarios para gara
 ### Lubricación (Frecuencia: Cada 3 meses)
 
 - Aplicación de lubricante en rodamientos: Usar un lubricante adecuado para rodamientos.
+
+![imagen](https://github.com/user-attachments/assets/26517354-5986-400c-9de4-0b287d5b095d)
+
+
 - Engrasado de engranajes de la base: Aplicar una capa delgada de grasa de litio en los dientes del engranaje grande para reducir la fricción y desgaste.
+
+![imagen](https://github.com/user-attachments/assets/f0ec6373-c4f1-43e4-9bb6-f8e4591a8e8a)
+
+
 - Distribución uniforme del lubricante: Girar manualmente los ejes varias veces después de la aplicación para garantizar una distribución uniforme.
+
+![imagen](https://github.com/user-attachments/assets/7e7c53de-d975-4821-9506-3826d8bae6e7)
+
+
 
 ### Ajuste de Componentes (Frecuencia: Cada 6 meses)
 
 - Revisión y ajuste de tornillos: Usar llaves hexagonales para comprobar la fijación de los motores y otros componentes.
+
+![imagen](https://github.com/user-attachments/assets/5b8f565d-92ed-46ed-87e2-af4226af2a2d)
+
+
 - Verificación de la tensión de correas (si aplica): Ajustar las correas para evitar holguras que puedan provocar imprecisiones en el movimiento del brazo.
+
+![imagen](https://github.com/user-attachments/assets/d4813fcc-0541-4aa1-ab0b-15a46d7aacb2)
+
+
 - Acomodación de cables: Revisar que los cables no obstruyan el movimiento y, si es necesario, fijarlos con bridas plásticas para mantener un orden adecuado.
+
+![imagen](https://github.com/user-attachments/assets/d07835c0-d592-471c-857a-484f4197bc58)
+
+
 
 ## Mantenimiento Correctivo
 
