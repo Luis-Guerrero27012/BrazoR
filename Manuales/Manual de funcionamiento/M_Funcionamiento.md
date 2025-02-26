@@ -36,8 +36,6 @@ Durante la operación tenga en cuenta:
 <a id='DESCRIPCIÓN'></a>
 
 ## **3. DESCRIPCIÓN DEL EQUIPO**
-### Especificaciones Técnicas
-
 ### Componentes Principales
 - **Motores**: 3x Nema 17 <br>
 ![motor](https://github.com/user-attachments/assets/4e83dea2-4d1b-4a0c-bb07-5d7d4a59ddc8) 
@@ -78,26 +76,26 @@ El electroimán se alimenta con 12V y su encendido se controla con un relé, act
 El modo de operación es remoto debido a que se controla el brazo mediante la vía Wi-Fi/Blluetooth desde una PC o la aplicación móvil.
 - Configuración de Pasos en motores PAP <br>
 La interfaz se vera de la manera siguiente: <br>
-![interfaz1 jpg](https://github.com/user-attachments/assets/3114c993-8131-4909-a1d4-2e35d0719e80) <br>
+![interfaz2 jpg](https://github.com/user-attachments/assets/8416f23b-ae66-40e2-910d-bbf91e88a8dc) <br>
 Para configurar los pasos tomar en cuenta que:
-- Motor 1 corresponde al que mueve la base, tiene un máximo de 90° de giro.
-- Motor 2 corresponde al eje x, tiene un máximo de
-- Motor 3 corresponde al eje y, tiene un máximo de
-Referente a los pasos ingresar:
+- Motor 1 corresponde al eje y que mueve la base, tiene un máximo de 90° de giro.
+- Motor 2 corresponde al eje x, tiene un máximo de 15 cm. de avance.
+- Motor 3 corresponde al eje z, tiene un máximo de 5cm. de avance.
+Referente a los pasos ingresar: <br>
+
 **Motor 1**
-- Pasos 1: 2000 para mover 90°
-- Pasos 2: 1700 para mover  cm.
-- Pasos 3: 1000 para mover <br>
+- Pasos 1: 2000
+- Pasos 6: 1000 
 
 **Motor 2**
-- Pasos 4: 1000 para mover 90°
-- Pasos 5: -500 para mover  cm.
-- Pasos 6: 600 para mover <br>
+- Pasos 2: 1000
+- Pasos 5: -1000
 
 **Motor 3**
-- Pasos 7: -2000 para mover 90°
-- Pasos 8: 1000 para mover  cm.
-- Pasos 9: 1000 para mover <br>
+- Pasos 3: 1000
+- Pasos 4: -1000
 
-Finaliza dando click en Girar.
+Finaliza dando click en Girar. <br>
+Repetir para realizar el ciclo. <br>
+Detener para finalizar el ciclo. 
 
