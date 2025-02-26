@@ -1,5 +1,6 @@
 #include <WiFi.h>
 #include <WebServer.h>  // Librería para servidor web
+#include <ESPmDNS.h>     // Librería para mDNS
 
 // Definimos los pines para conectar los controladores A4988 de los tres motores
 #define DIR_PIN_1 33
@@ -37,6 +38,16 @@ void setup() {
     Serial.println("Conectado a WiFi");
     Serial.print("Dirección IP: ");
     Serial.println(WiFi.localIP());
+
+    // Inicializar mDNS con un nombre para acceder a la red local
+    if (!MDNS.begin("1brazo")) {
+        Serial.println("Error al iniciar mDNS");
+        while (1) {
+            delay(1000);
+        }
+    }
+
+    Serial.println("mDNS iniciado correctamente");
 
     // Configuración de pines como salida
     pinMode(DIR_PIN_1, OUTPUT);
@@ -219,3 +230,4 @@ void rotateMotor(int dirPin, int stepPin, int steps) {
         delayMicroseconds(800);
     }
 }
+#CODIGO 1BRAZO
